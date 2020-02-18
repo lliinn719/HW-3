@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft JhengHei;
+}
+body {
+    background-color: #3C3C3C;
+}
+.block {
+    box-sizing: border-box;
+    background-color: #272727;
+    border: 1px solid #4F4F4F;
+    width:900px;
+    margin: 30px 180px;
+}
+.head p {
+    font-size: 28px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed #4F4F4F;
+    background-color: #272727;
+    color:#fff;
+    padding: 20px 30px;
+}
+form {
+    box-sizing: border-box;
+    
+}
+.text {
+    margin: 30px;
+    color: #fff;
+}
+.text p {
+    color:#fff;
+    padding-left:5px;
+}
+.text select {
+    box-sizing: border-box;
+    font-size: 14px;
+    padding:5px;
+    margin: 5px;
+    width:800px;
+    height:40px;
+    background-color: #E0E0E0;
+}
+.text textarea {
+    box-sizing: border-box;
+    background-color: #E0E0E0;
+    width:800px;
+    height:250px;
+    margin: 5px;
+}
+.text .data {
+    box-sizing: border-box;
+    background-color: #303030;
+    width:600px;
+    height:30px;
+    border-radius: 5px;
+    border:1px solid #303030;
+}
