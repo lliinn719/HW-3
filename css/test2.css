@@ -5,6 +5,10 @@
 }
 body {
     background-color: #FAFAFA;
+    margin: 0 auto;
+}
+.coverflow {
+    margin: 0 auto;
 }
 .coverflow img {
     box-sizing: border-box;

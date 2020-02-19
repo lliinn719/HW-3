@@ -48,7 +48,7 @@ form {
     background-color: #E0E0E0;
     width:800px;
     height:250px;
-    margin: 5px;
+    margin: 0px auto;
 }
 .text .data {
     box-sizing: border-box;
