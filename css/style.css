@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding:0;
+    font-family: Microsoft JhengHei;
+}
+body {
+    margin: 0,auto;
+}
+.block {
+    position: absolute;
+    top:50px;
+    left:500px;
+}
+.block p {
+    font-size: 28px;
+    margin: 15px;
+    color:#000;
+    box-sizing: border-box;
+    text-align: center;
+}
+.blockin {
+    text-align: center;
+}
+.blockin a {
+    font-size: 20px;
+    margin: 15px;
+    text-decoration: none;
+    color:blue;
+    line-height: 48px;
+}
+.blockin a:hover {
+    text-decoration: underline blue;
+}

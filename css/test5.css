@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft JhengHei;
+}
+body {
+    background-color:#F5F5F5;
+}
+.block {
+    margin: 0,auto;
+}
+.header {
+    float: right;
+}
+.header img{
+    position:absolute;
+    left: 110px;
+    top:80px;
+    width: 380px;
+    height: 420px;
+}
+.header p {
+    box-sizing: border-box;
+    width:615px;
+    text-align: justify;
+    position: absolute;
+    color:#524e4d;
+    font-size: 18px;
+    right: 195px;
+    top:10px;
+    line-height: 28px;
+    letter-spacing:1px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.13);
+}
+.text {
+    float: right; 
+    position: absolute;
+    top:120px;
+    right:300px;
+}
+.text select {
+    position: absolute;
+    right:208px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width:300px;
+    height: 40px;
+    border: 1px solid #e5e3e5;
+    color: #524e4d;
+    background-color: #F5F5F5;
+    padding: 8px;
+    font-size: 16px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.13);
+    cursor: pointer;
+}
+.text .textin input {
+    position: absolute; 
+    right:318px;
+    top:60px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width:190px;
+    height: 40px;
+    border: 1px solid #e5e3e5;
+    color: #000;
+    background-color: #F5F5F5;
+    padding: 10px;
+    font-size: 16px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.13);
+    box-shadow: 0 1px 5px rgba(0,0,0,.2)inset;
+}
+.text .textin #phone {
+    position: absolute; 
+    right:318px;
+    top:120px;
+}
+.text .textin #mail {
+    position: absolute; 
+    right:-95px;
+    top:120px;
+    width:395px;
+}
+.text .textin #textarea {
+    position: absolute; 
+    left:-508px;
+    top:175px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width:605px;
+    height: 200px;
+    border: 1px solid #e5e3e5;
+    color: #000;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.13);
+    box-shadow: 0 1px 5px rgba(0,0,0,.2) inset;
+}
+.footer input {
+    position: absolute;
+    top:400px; 
+    right:10px;
+    background-color:rgb(0, 57, 147);
+    color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 57, 147);
+    cursor: pointer;
+    width:90px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+}
+.footer #btn2 {
+    position: absolute;
+    top:400px; 
+    right:-95px;
+}
