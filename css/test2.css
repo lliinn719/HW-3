@@ -1,17 +1,16 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-family: DFYuanLight;
+    box-sizing: border-box;
 }
 body {
     background-color: #FAFAFA;
-    margin: 0 auto;
 }
 .coverflow {
     margin: 0 auto;
 }
 .coverflow img {
-    box-sizing: border-box;
     position: absolute;
     width: 520px;
     height:630px;
@@ -20,7 +19,6 @@ body {
     z-index: 2;
 }
 .coverflow #img1 {
-    box-sizing: border-box;
     position: absolute;
     width: 240px;
     height:420px;
@@ -28,7 +26,6 @@ body {
     left:370px;
 }
 .coverflow1 img {
-    box-sizing: border-box;
     position: absolute;
     width: 700px;
     height:650px;
@@ -37,7 +34,6 @@ body {
     z-index: 1;
 }
 .coverflow1 #img4 {
-    box-sizing: border-box;
     position: absolute;
     width: 240px;
     height:420px;
@@ -45,7 +41,6 @@ body {
     left:280px;
 }
 .block {
-    box-sizing: border-box;
     background-color: #fff;
     border: 1px solid #DEDEDE;
     width:350px;
@@ -66,7 +61,6 @@ body {
     font-size: 18px;
 }
 .text #btn {
-    box-sizing: border-box;
     border-radius: 5px;
     width:275px;
     border:1px solid rgb(24, 119,242);
@@ -97,7 +91,6 @@ body {
     left: 100px;
 }
 .text .textin {
-    box-sizing: border-box;
     background-color: #FCFCFC;
     border: 1px solid #E0E0E0;
     border-radius: 3px;
@@ -109,7 +102,6 @@ body {
     font-size: 12px;
 }
 .text #sumbit {
-    box-sizing: border-box;
     border-radius: 5px;
     width:275px;
     border:1px solid rgb(24, 119,242);
@@ -136,7 +128,6 @@ body {
     cursor: pointer;
 }
 .block2 {
-    box-sizing: border-box;
     background-color: #fff;
     border: 1px solid #DEDEDE;
     width:350px;
@@ -155,7 +146,6 @@ body {
     color:rgb(24, 119,242);
 }
 .block3  {
-    box-sizing: border-box;
     background-color: #FAFAFA;
     border: 1px solid #FAFAFA;
     width:350px;
@@ -175,27 +165,21 @@ body {
     left: 35px;
     top:5px;
 }
-.footer {
-    margin: 0,auto;
+.footer , #footer {
+    margin: 0px auto;
+    margin: 50px 30px;
 }
 .footer a {
-    position: relative;
-    top:110px;
-    left:135px;
-    float: left;
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
     color:#003060;
     padding-right: 15px;
 }
-.footer p {
-    position: relative;
-    top:110px;
-    left:330px;
+#footer p {
+    float: right;
     font-size: 12px;
     font-weight: bold;
     font-family: Microsoft JhengHei;
     color:#9D9D9D;
-    padding-bottom: 50px;
 }
